@@ -1,6 +1,6 @@
 __author__ = 'harlanhowe'
 board = []
-
+turns = 0
 start = ("P","P","P"," ","D","D","D") # this will change
 solution = ("D","D","D"," ","P","P","P") # this won't.
 
@@ -8,6 +8,7 @@ solution = ("D","D","D"," ","P","P","P") # this won't.
 def resetBoard():
     board = []
     board.extend(start)
+    turns = 0
     
 def spaceLocation():
     return board.index(" ")
