@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CoinShift.iml" filepath="$PROJECT_DIR$/.idea/CoinShift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CoinShiftGame/.idea/CoinShiftGame.iml" filepath="$PROJECT_DIR$/../CoinShiftGame/.idea/CoinShiftGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../triangleTest/.idea/triangleTest.iml" filepath="$PROJECT_DIR$/../triangleTest/.idea/triangleTest.iml" />
+    </modules>
+  </component>
+</project>
+
