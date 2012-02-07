@@ -6,9 +6,10 @@ solution = ("D","D","D"," ","P","P","P") # this won't.
 
 
 def resetBoard():
+    global board
     board = []
     board.extend(start)
-    
+
 def spaceLocation():
     return board.index(" ")
 
