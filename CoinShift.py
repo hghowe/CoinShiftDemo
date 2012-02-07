@@ -1,7 +1,14 @@
 __author__ = 'harlanhowe'
+board = []
 
-board = ["P","P","P"," ","D","D","D"] # this will change
+start = ("P","P","P"," ","D","D","D") # this will change
 solution = ("D","D","D"," ","P","P","P") # this won't.
+
+
+def resetBoard():
+    board = []
+    board.extend(start)
+    
 def spaceLocation():
     return board.index(" ")
 
